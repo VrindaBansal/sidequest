@@ -83,7 +83,6 @@ struct HistoryView: View {
                 }
             }
         }
-        .navigationBarHidden(true)
     }
 
     private func calculateCompletionPercentage() -> Int {

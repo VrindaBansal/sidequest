@@ -16,6 +16,7 @@
 		A14019132E9382EA00F74887 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A140190C2E9382EA00F74887 /* HistoryView.swift */; };
 		A14019142E9382EA00F74887 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A140190D2E9382EA00F74887 /* MainView.swift */; };
 		A14019152E9382EA00F74887 /* ChallengeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A140190F2E9382EA00F74887 /* ChallengeGenerator.swift */; };
+		A1EF21072E93892F00F28367 /* sidequestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF21062E93892F00F28367 /* sidequestApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		A140190C2E9382EA00F74887 /* HistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		A140190D2E9382EA00F74887 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A140190F2E9382EA00F74887 /* ChallengeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeGenerator.swift; sourceTree = "<group>"; };
+		A1EF21062E93892F00F28367 /* sidequestApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sidequestApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		A14019052E9382EA00F74887 /* sidequest */ = {
 			isa = PBXGroup;
 			children = (
+				A1EF21062E93892F00F28367 /* sidequestApp.swift */,
 				A14019062E9382EA00F74887 /* ViewModels */,
 				A14019082E9382EA00F74887 /* Models */,
 				A140190B2E9382EA00F74887 /* Views */,
@@ -291,6 +294,7 @@
 				A14019132E9382EA00F74887 /* HistoryView.swift in Sources */,
 				A14019122E9382EA00F74887 /* ChallengeCategory.swift in Sources */,
 				A14019152E9382EA00F74887 /* ChallengeGenerator.swift in Sources */,
+				A1EF21072E93892F00F28367 /* sidequestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,10 +450,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = sidequest/sidequest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"sidequest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -482,10 +485,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = sidequest/sidequest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"sidequest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
